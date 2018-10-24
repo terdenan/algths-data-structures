@@ -28,7 +28,8 @@ if __name__ == '__main__':
 
     import timeit
 
-    spended_time = timeit.timeit('fibonacci.fibonacci(n, "quick")', 
+    spended_time = timeit.timeit(
+        'fibonacci.fibonacci(n, "quick")', 
         'from __main__ import Fibonacci; fibonacci = Fibonacci(); n = int(input())', 
         number=10)
     average_time = spended_time / 10
