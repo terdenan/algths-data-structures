@@ -143,9 +143,11 @@ class Demonstration {
 
         orderedTree.addNode(5);
         orderedTree.addNode(2);
+        orderedTree.addNode(6);
         orderedTree.addNode(4);
         orderedTree.addNode(1);
-        orderedTree.addNode(6);
+        orderedTree.addNode(9);
+        orderedTree.addNode(7);
 
         orderedTree.traverseInorder();
         System.out.println();
